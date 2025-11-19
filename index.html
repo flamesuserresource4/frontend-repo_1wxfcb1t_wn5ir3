@@ -1,15 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="el">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Flames App</title>
-    <link rel="icon" type="image/x-icon" href="favicon.svg">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Manrope:wght@300;400;500;600;700;800&family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/geist@1.0.0/dist/fonts/geist-sans/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/geist@1.0.0/dist/fonts/geist-mono/style.css">
+
+    <!-- SEO Basic -->
+    <title>Epiplagand.gr | Premium έπιπλα κρεβατοκάμαρας & σαλόνι — Ραντεβού για εξατομικευμένη πρόταση</title>
+    <meta name="description" content="Custom ελληνικές κατασκευές σε κρεβατοκάμαρες και σαλόνι. Ραντεβού στο κατάστημα, δωρεάν επιμέτρηση, σαφή χρόνοι παράδοσης, premium ποιότητα." />
+    <link rel="canonical" href="https://www.epiplagand.gr/rantevou-epipla-ypnodomatio-saloni" />
+
+    <!-- Robots & Sitemaps references -->
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
+    <link rel="robots" href="/robots.txt" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Epiplagand" />
+    <meta property="og:title" content="Premium έπιπλα κρεβατοκάμαρας & σαλόνι — Ραντεβού στο κατάστημα" />
+    <meta property="og:description" content="Εξατομικευμένη επιλογή επίπλων, δωρεάν επιμέτρηση και σαφή χρόνοι παράδοσης. Κλείστε ραντεβού σήμερα." />
+    <meta property="og:url" content="https://www.epiplagand.gr/rantevou-epipla-ypnodomatio-saloni" />
+    <meta property="og:image" content="https://www.epiplagand.gr/og.jpg" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Premium έπιπλα κρεβατοκάμαρας & σαλόνι — Ραντεβού στο κατάστημα" />
+    <meta name="twitter:description" content="Εξατομικευμένη επιλογή επίπλων, δωρεάν επιμέτρηση και σαφή χρόνοι παράδοσης. Κλείστε ραντεβού σήμερα." />
+    <meta name="twitter:image" content="https://www.epiplagand.gr/og.jpg" />
+
+    <!-- Last Modified ISO -->
+    <meta name="last-modified" content="2025-01-01T00:00:00.000Z" />
+
+    <!-- Internal links to related brand pages -->
+    <link rel="prefetch" href="https://www.epiplagand.gr/projects" />
+    <link rel="prefetch" href="https://www.epiplagand.gr/about" />
+
+    <!-- Fonts & Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Manrope:wght@300;400;500;600;700;800&family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/geist@1.0.0/dist/fonts/geist-sans/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/geist@1.0.0/dist/fonts/geist-mono/style.css" />
+
+    <!-- Structured Data JSON-LD: LocalBusiness + Service -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Epiplagand",
+        "url": "https://www.epiplagand.gr",
+        "image": "https://www.epiplagand.gr/og.jpg",
+        "telephone": "+30 210 0000000",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Athens",
+          "addressCountry": "GR"
+        },
+        "sameAs": [
+          "https://www.facebook.com/epiplagand",
+          "https://www.instagram.com/epiplagand"
+        ],
+        "department": [
+          { "@type": "Service", "name": "Έπιπλα κρεβατοκάμαρας", "areaServed": "Greece" },
+          { "@type": "Service", "name": "Έπιπλα σαλονιού", "areaServed": "Greece" }
+        ]
+      }
+    </script>
+
+    <!-- Facebook Pixel (reads VITE_FB_PIXEL_ID if provided) -->
+    <script type="module">
+      const PIXEL_ID = import.meta.env.VITE_FB_PIXEL_ID
+      if (PIXEL_ID) {
+        !(function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+        n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)})(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        window.fbq('init', PIXEL_ID);
+        window.fbq('track', 'PageView');
+      }
+      window.addEventListener('lead', () => {
+        if (window.fbq) window.fbq('track', 'Lead');
+      })
+    </script>
   </head>
   <body>
     <div id="root"></div>
